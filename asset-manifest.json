@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d6aa73ec.chunk.css",
+    "main.js": "/portfolio/static/js/main.950167de.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.950167de.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
+    "static/js/2.60f6c105.chunk.js": "/portfolio/static/js/2.60f6c105.chunk.js",
+    "static/js/2.60f6c105.chunk.js.map": "/portfolio/static/js/2.60f6c105.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.6fb048683776fe4689a762dfddff1657.js": "/portfolio/precache-manifest.6fb048683776fe4689a762dfddff1657.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.d6aa73ec.chunk.css.map": "/portfolio/static/css/main.d6aa73ec.chunk.css.map",
+    "static/js/2.60f6c105.chunk.js.LICENSE": "/portfolio/static/js/2.60f6c105.chunk.js.LICENSE",
+    "static/media/darth-vader.png": "/portfolio/static/media/darth-vader.11b48ce4.png",
+    "static/media/ear.jpeg": "/portfolio/static/media/ear.0d550526.jpeg",
+    "static/media/jammming.jpeg": "/portfolio/static/media/jammming.c75fc362.jpeg",
+    "static/media/piano-player.jpeg": "/portfolio/static/media/piano-player.ab57af58.jpeg",
+    "static/media/ravenous.jpeg": "/portfolio/static/media/ravenous.5a958a65.jpeg",
+    "static/media/totizeke.png": "/portfolio/static/media/totizeke.3f20d08e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44087e9b.js",
+    "static/js/2.60f6c105.chunk.js",
+    "static/css/main.d6aa73ec.chunk.css",
+    "static/js/main.950167de.chunk.js"
+  ]
+}
