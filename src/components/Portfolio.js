@@ -100,7 +100,13 @@ const Portfolio = () => {
                 </p>
               </p>
               <div className="visit-website">
-                <a href="#">Visit website</a>
+                <a
+                  href="https://AJEdelmann.github.io/react-jammming/"
+                  rel="external"
+                  target="_blank"
+                >
+                  Visit website
+                </a>
               </div>
             </div>
           </div>
