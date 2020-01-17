@@ -3,6 +3,8 @@ import PianoPlayer from "../img/piano-player.jpeg";
 import Ravenous from "../img/ravenous.jpeg";
 import Ear from "../img/ear.jpeg";
 import Jammming from "../img/jammming.jpeg";
+import NewsApp from "../img/news-app.JPG";
+import RhymeGenerator from "../img/rhyme-generator.JPG";
 
 const Portfolio = () => {
   return (
@@ -118,50 +120,62 @@ const Portfolio = () => {
           <div className="card" id="my-card-space">
             <img
               className="card-img-top"
-              src={PianoPlayer}
+              src={NewsApp}
               height="200vh"
               alt="Card image cap"
             />
             <div className="card-body">
-              <h5 className="card-title font-weight-bold">Todo app</h5>
+              <h5 className="card-title font-weight-bold">News app</h5>
               <p className="card-text">
                 <p>
-                  <span className="blackSpan">Description: </span>Full Stack
-                  application fetching data from my own API
+                  <span className="blackSpan">Description: </span>A webpack
+                  boilerplate fetching data from news api with axios
                 </p>
                 <p>
-                  <span className="blackSpan">Technologies used: </span>React,
-                  Node.js, MongoDB, Zeit
+                  <span className="blackSpan">Technologies used: </span>
+                  JavaScript, Nodejs and Express
                 </p>
               </p>
               <div className="visit-website">
-                <a href="#">Github repository</a>
+                <a
+                  href="https://ajedelmann.github.io/news-app/"
+                  rel="external"
+                  target="_blank"
+                >
+                  Visit website
+                </a>
               </div>
             </div>
           </div>
           <div className="card" id="my-card-space">
             <img
               className="card-img-top"
-              src={PianoPlayer}
+              src={RhymeGenerator}
               height="200vh"
               alt="Card image cap"
             />
             <div className="card-body">
-              <h5 className="card-title font-weight-bold">
-                Data-server-record-store
-              </h5>
+              <h5 className="card-title font-weight-bold">Rhyme generator</h5>
               <p className="card-text">
                 <p>
-                  <span className="blackSpan">Description: </span>A traditional
-                  RESTfull API
+                  <span className="blackSpan">Description: </span>In this
+                  project I use the boilerplate code for an AJAX request using
+                  an XHR object to the Datamuse API to search for words that
+                  rhyme. For poets and musicians delight!
                 </p>
                 <p>
-                  <span className="blackSpan">Technologies used: </span>Node,
-                  Express and Mongoose
+                  <span className="blackSpan">Technologies used: </span>
+                  JavaScript, JQuery, Nodejs and Express
                 </p>
               </p>
               <div className="visit-website">
-                <a href="#">Visit website</a>
+                <a
+                  href="https://AJEdelmann.github.io/rhyme-generator/"
+                  rel="external"
+                  target="_blank"
+                >
+                  Visit website
+                </a>
               </div>
             </div>
           </div>
@@ -186,7 +200,13 @@ const Portfolio = () => {
                 </p>
               </p>
               <div className="visit-website">
-                <a href="#">Github repository</a>
+                <a
+                  href="https://github.com/AJEdelmann/music-chords-api/tree/dev"
+                  rel="external"
+                  target="_blank"
+                >
+                  Github repository
+                </a>
               </div>
             </div>
           </div>
