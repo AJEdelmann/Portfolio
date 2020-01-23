@@ -5,9 +5,11 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Home = () => {
   return (
     <div className="homeWrapper">
-      <div className="linha myNav">
+      {/* <div className="linha myNav"> */}
+      <div className="myNav">
         <header className="header">
-          <div className="col12">
+          {/* <div className="col12"> */}
+          <div className="navDiv">
             <nav>
               <ul>
                 <li className="nav-li">
@@ -73,11 +75,12 @@ const Home = () => {
               </ul>
             </nav>
           </div>
-          <hr />
         </header>
       </div>
 
-      <div className="linha home">
+      {/* <div className="linha home">
+            <div className="coluna col4 mytext"> */}
+      <div className="home">
         <div className="coluna col4 mytext">
           <h1 id="myname">
             <span>A</span>LB<span>ERT</span> J.

@@ -4,47 +4,47 @@ const Contact = () => {
   return (
     <div className="section-contact">
       <div className="mycontact">
-        <div className="linha">
-          <div className=" coluna col12 mygetintouch">
-            <h1 id="myh1contact">Get in touch</h1>
-            <p className="myinterest">
-              I’m always interested in new opportunities, freelance work, and
-              collaborations.
-              <br />
-              Message me if you'd like to work with me.
-            </p>
-          </div>
+        {/* <div className="linha"> */}
+        <div className=" coluna col12 mygetintouch">
+          <h1 id="myh1contact">Get in touch</h1>
+          <p className="myinterest">
+            I’m always interested in new opportunities, freelance work, and
+            collaborations.
+            <br />
+            Message me if you'd like to work with me.
+          </p>
         </div>
+        {/* </div> */}
 
-        <div className="linha">
-          <div className=" coluna col myicon">
-            {/* <i
+        {/* <div className="linha"> */}
+        {/* <div className=" coluna col myicon"> */}
+        {/* <i
               className="fas fa-address-card"
               style={{ fontSize: "5em", paddingTop: "10px" }}
             ></i> */}
-          </div>
-          <div className=" coluna col mylists">
-            <ul className="mylists mydetails">
-              <li>
-                <span className="contactIcons">✆</span> Phone: +49 170 9812225
-              </li>
-              <li>
-                <span className="contactIcons">✉</span> E-mail:
-                albert.edelmann@gmail.com
-              </li>
-              <li>
-                <span className="contactIcons">
-                  <i className="fab fa-skype"></i>
-                </span>{" "}
-                Skype: albert.edelmann
-              </li>
-            </ul>
-          </div>
+        {/* </div> */}
+        <div className=" coluna col mylists">
+          <ul className="mylists mydetails">
+            <li>
+              <span className="contactIcons">✆</span> Phone: +49 170 9812225
+            </li>
+            <li>
+              <span className="contactIcons">✉</span> E-mail:
+              albert.edelmann@gmail.com
+            </li>
+            <li>
+              <span className="contactIcons">
+                <i className="fab fa-skype"></i>
+              </span>
+              Skype: albert.edelmann
+            </li>
+          </ul>
         </div>
+        {/* </div> */}
       </div>
 
       <div className="mybrief">
-        <div className="linha">
+        <div className="briefDiv">
           <div className=" coluna col12">
             <h2 className="myh2contact">Send me a message</h2>
             <form
