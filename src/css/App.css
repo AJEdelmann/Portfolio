@@ -830,6 +830,16 @@ nav ul li a:hover {
     font-size: 1em;
   }
 
+  .copy,
+  .myprivacy,
+  .mycv {
+    padding: 0;
+  }
+
+  .copy>p {
+    margin-bottom: 0;
+  }
+
 
 }
 
@@ -890,6 +900,7 @@ nav ul li a:hover {
   .footer {
     font-size: 0.5em;
   }
+
 }
 
 @media (max-width: 400px) {
