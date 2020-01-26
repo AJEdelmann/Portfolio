@@ -12,9 +12,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="coluna col4 copy">
-            <p>
-              This website was developed by Albert Edelmann with React and css
-            </p>
+            <p>This website was developed by Albert Edelmann with React</p>
             <div className="socialMediaIcons">
               <a
                 href="https://www.instagram.com/albert_toti/"

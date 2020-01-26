@@ -124,7 +124,7 @@ nav ul {
 nav ul li {
   padding-right: 3vw;
   display: inline;
-  font-size: 1.2vw;
+  font-size: 1.2em;
   color: #10162f;
 }
 
@@ -154,7 +154,7 @@ hr {
 } */
 
 #myname {
-  font-size: 3.5vw;
+  font-size: 3.5em;
   text-align: center;
 }
 
@@ -171,13 +171,13 @@ span {
 }
 
 .mywebdev {
-  font-size: 1.2vw;
+  font-size: 1.2em;
   text-align: center;
-  letter-spacing: 1vw;
+  letter-spacing: 0.5em;
 }
 
 .myberlin {
-  font-size: 1.2vw;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -187,10 +187,11 @@ span {
 
 .myphoto {
   float: left;
-  width: 60%;
+  width: 50%;
   padding-top: 0;
   max-width: 100%;
   height: -webkit-fill-available;
+  margin-left: 3em;
 }
 
 img {
@@ -246,7 +247,7 @@ img {
 }
 
 .whatido {
-  height: 20vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,7 +255,7 @@ img {
 }
 
 .howdid {
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -290,11 +291,16 @@ img {
 /*Typography*/
 
 .myh2 {
-  font-size: 2.3vw;
-  /* color: rgb(250, 200, 99); */
+  font-size: 1.8em;
   color: #4fe0b0;
-  ;
   margin: 10px 0;
+}
+
+.myh3 {
+  font-size: 1.5em;
+  /* color: rgb(252, 146, 158); */
+  color: #4fe0b0;
+  margin: 10px;
 }
 
 .myh4 {
@@ -302,18 +308,9 @@ img {
   letter-spacing: 0.1rem;
   font-weight: normal;
   margin: 10px;
+  font-size: 1.2em;
 }
 
-.myh3 {
-  font-size: 2.2vw;
-  /* color: rgb(252, 146, 158); */
-  color: #4fe0b0;
-  margin: 10px;
-}
-
-.myh4 {
-  font-size: 1.5vw;
-}
 
 /* ============================================= */
 /* ======== Here starts SKILLS section ========= */
@@ -356,10 +353,10 @@ img {
   height: 20px;
   border-radius: 10px;
   position: relative;
-  top: 370px;
+  top: 350px;
   right: -54px;
   display: block;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 0.8rem;
   -webkit-transform: rotate(50deg);
   -webkit-transform-origin: 100% 0;
@@ -371,7 +368,7 @@ img {
   -o-transform-origin: 100% 0;
   transform: rotate(50deg);
   transform-origin: 100% 0;
-  width: 200px;
+  width: 20px;
   text-align: right;
   font-weight: 600;
   color: #33459e;
@@ -558,9 +555,9 @@ _________________________________________________________________*/
 .mycontact {
   background-color: #c0c0c024;
   text-align: center;
-  padding: 50px 0;
+  padding: 10px 0;
   width: 100vw;
-  height: 65vh;
+  height: 40vh;
 }
 
 .mybrief,
@@ -614,7 +611,12 @@ _________________________________________________________________*/
   padding: 0;
   color: black;
   font-weight: 600;
+  /* font-size: 1rem; */
 }
+
+/* .mylists>.mydetails>li {
+  font-size: 0.5rem;
+} */
 
 
 
@@ -710,7 +712,7 @@ input:focus {
 }
 
 .footer {
-  font-size: 1.2vw;
+  font-size: 0.8em;
   background: #10162f;
   color: #fff;
   height: 10em;
@@ -786,4 +788,123 @@ nav ul li a:hover {
 .myprivacy a:hover,
 .mycv a:hover {
   color: yellow;
+}
+
+@media (max-width: 830px) {
+
+  .mytext {
+    width: 50vw;
+  }
+
+  .photoDiv {
+    width: 50vw;
+  }
+
+  .myphoto {
+    width: 75%;
+    margin-left: 0;
+  }
+
+  .myinterest,
+  .mylists {
+    font-size: 1rem;
+  }
+
+  .myliskill {
+    right: -20px;
+    font-size: 1.2em;
+    transform: rotate(60deg);
+    margin-right: -15px;
+  }
+
+  .myh2 {
+    font-size: 1.5em;
+  }
+
+  .myh3 {
+    font-size: 1.2em;
+
+  }
+
+  .myh4 {
+    font-size: 1em;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+
+  nav ul li {
+    font-size: 0.9em;
+  }
+
+  #myname {
+    font-size: 2.5em
+  }
+
+  .mywebdev,
+  .myberlin {
+    font-size: 1em;
+  }
+
+  .myphoto {
+    width: 100%;
+  }
+
+  .myh2 {
+    font-size: 1.3em;
+  }
+
+  .myh3 {
+    font-size: 1em;
+
+  }
+
+  .myh4 {
+    font-size: 0.8em;
+  }
+
+  .whatido {
+    margin: 10px 0;
+  }
+
+  .howdid {
+    height: 50vh;
+  }
+
+  .myinterest,
+  .mylists {
+    font-size: 0.8rem;
+  }
+
+  .myliskill {
+    right: -5px;
+    transform: rotate(80deg);
+  }
+
+  .darth-vader {
+    display: none;
+  }
+
+  .footer {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 400px) {
+
+  #myname {
+    font-size: 2.2em
+  }
+
+  .mywebdev,
+  .myberlin {
+    font-size: 0.7em;
+  }
+
+
+  .howdid {
+    height: 62vh;
+  }
 }
