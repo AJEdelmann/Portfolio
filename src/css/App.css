@@ -4,7 +4,7 @@
 
 body {
   color: #fa0606;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
   scroll-behavior: smooth;
 }
@@ -107,9 +107,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   margin-top: 20px;
-
 }
-
 
 nav ul {
   list-style-type: none;
@@ -274,7 +272,7 @@ img {
   height: 30px;
   border: 1px solid gray;
   /* background: linear-gradient(to left, #e7babaed, #b92f16); */
-  background: linear-gradient(to left, #3DBAF7, #1D3B8B);
+  background: linear-gradient(to left, #3dbaf7, #1d3b8b);
   color: #fff;
   border-radius: 15px;
   margin: 8px 30px;
@@ -311,7 +309,6 @@ img {
   font-size: 1.2em;
 }
 
-
 /* ============================================= */
 /* ======== Here starts SKILLS section ========= */
 /* ============================================= */
@@ -331,7 +328,7 @@ img {
   text-align: left;
   font-weight: bold;
   color: black;
-  margin-left: 13vw
+  margin-left: 13vw;
 }
 
 .sk {
@@ -345,7 +342,6 @@ img {
   margin-bottom: 60px;
   list-style: none;
   padding-inline-start: 0;
-
 }
 
 .myliskill {
@@ -405,7 +401,6 @@ img {
   top: -25rem;
 }
 
-
 #bar {
   width: 100%;
   height: 80%;
@@ -425,7 +420,7 @@ img {
 #fill7 {
   height: 20px;
   border-radius: 10px;
-  background: linear-gradient(to left, #d46060, #1D3B8B);
+  background: linear-gradient(to left, #d46060, #1d3b8b);
   /* background: linear-gradient(to left, #3DBAF7, #1D3B8B); */
   width: 100%;
   z-index: 2;
@@ -529,7 +524,7 @@ img {
 }
 
 .myProjectsH2 {
-  margin-left: 13vw
+  margin-left: 13vw;
 }
 
 .my-projects .my-cards {
@@ -542,7 +537,7 @@ img {
 }
 
 #my-card-space:hover {
-  box-shadow: -5px 0 20px 5px rgba(0, 0, 0, .5);
+  box-shadow: -5px 0 20px 5px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease-out;
 }
 
@@ -618,8 +613,6 @@ _________________________________________________________________*/
   font-size: 0.5rem;
 } */
 
-
-
 .clientEntry {
   color: rgb(11, 11, 99);
   border: none;
@@ -673,7 +666,7 @@ input:focus {
 }
 
 .botao:hover {
-  background: linear-gradient(to left, #3DBAF7, #10162f);
+  background: linear-gradient(to left, #3dbaf7, #10162f);
 }
 
 /* HERE STARTS THE PRIVACY PAGE */
@@ -688,11 +681,9 @@ input:focus {
   text-align: center;
 }
 
-
 * {
   box-sizing: border-box;
 }
-
 
 [class*="col"] {
   float: left;
@@ -703,7 +694,6 @@ input:focus {
   clear: both;
   display: table;
 }
-
 
 /* Footer section */
 
@@ -791,7 +781,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 830px) {
-
   .mytext {
     width: 50vw;
   }
@@ -823,7 +812,6 @@ nav ul li a:hover {
 
   .myh3 {
     font-size: 1.2em;
-
   }
 
   .myh4 {
@@ -836,21 +824,22 @@ nav ul li a:hover {
     padding: 0;
   }
 
-  .copy>p {
+  .copy > p {
     margin-bottom: 0;
   }
 
-
+  .socialMediaIcons > a {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 600px) {
-
   nav ul li {
     font-size: 0.9em;
   }
 
   #myname {
-    font-size: 2.5em
+    font-size: 2.5em;
   }
 
   .mywebdev,
@@ -868,7 +857,6 @@ nav ul li a:hover {
 
   .myh3 {
     font-size: 1em;
-
   }
 
   .myh4 {
@@ -900,20 +888,17 @@ nav ul li a:hover {
   .footer {
     font-size: 0.5em;
   }
-
 }
 
 @media (max-width: 400px) {
-
   #myname {
-    font-size: 2.2em
+    font-size: 2.2em;
   }
 
   .mywebdev,
   .myberlin {
     font-size: 0.7em;
   }
-
 
   .howdid {
     height: 62vh;
