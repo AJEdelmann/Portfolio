@@ -16,15 +16,15 @@ const Footer = () => {
             <div className="socialMediaIcons">
               <a
                 href="https://www.instagram.com/albert_toti/"
-                rel="external"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <img src={InstaIcon} alt="instagram" className="myinsta" />
               </a>
               <a
                 href="https://github.com/AJEdelmann"
-                rel="external"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="https://img.icons8.com/ios-filled/50/000000/github.png"
@@ -34,8 +34,8 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/albert-edelmann-023269199/"
-                rel="external"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"

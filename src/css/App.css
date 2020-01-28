@@ -9,6 +9,14 @@ body {
   scroll-behavior: smooth;
 }
 
+a {
+  color: black;
+}
+
+.visit-website>p {
+  color: #346beb;
+}
+
 .coluna {
   padding: 0 5px;
   /*espassamento entre colunas, isso influi na conta dos 960px, que dividido por
@@ -111,6 +119,7 @@ nav {
 
 nav ul {
   list-style-type: none;
+  margin-block-end: 1.32em;
   /*padding: 0;*/
 }
 
@@ -438,12 +447,12 @@ img {
 
 #fill2 {
   width: 100%;
-  height: 59%;
+  height: 57%;
 }
 
 #fill3 {
   width: 100%;
-  height: 52%;
+  height: 48%;
 }
 
 #fill4 {
@@ -552,7 +561,7 @@ _________________________________________________________________*/
   text-align: center;
   padding: 10px 0;
   width: 100vw;
-  height: 40vh;
+  height: 33vh;
 }
 
 .mybrief,
@@ -560,6 +569,10 @@ _________________________________________________________________*/
   color: black;
   font-size: 1.3em;
   line-height: 50px;
+}
+
+.myinterest {
+  line-height: 30px;
 }
 
 .mybrief {
@@ -606,6 +619,7 @@ _________________________________________________________________*/
   padding: 0;
   color: black;
   font-weight: 600;
+  padding-top: 10px;
   /* font-size: 1rem; */
 }
 
@@ -824,11 +838,11 @@ nav ul li a:hover {
     padding: 0;
   }
 
-  .copy > p {
+  .copy>p {
     margin-bottom: 0;
   }
 
-  .socialMediaIcons > a {
+  .socialMediaIcons>a {
     margin-top: 0;
   }
 }

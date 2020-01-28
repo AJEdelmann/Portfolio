@@ -1,14 +1,12 @@
 import React from "react";
 import MyPhoto from "../img/totizeke.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <div className="homeWrapper">
-      {/* <div className="linha myNav"> */}
       <div className="myNav">
         <header className="header">
-          {/* <div className="col12"> */}
           <div className="navDiv">
             <nav>
               <ul>
@@ -78,8 +76,6 @@ const Home = () => {
         </header>
       </div>
 
-      {/* <div className="linha home">
-            <div className="coluna col4 mytext"> */}
       <div className="home">
         <div className="coluna col4 mytext">
           <h1 id="myname">

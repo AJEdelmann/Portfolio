@@ -19,16 +19,22 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card-deck my-cards">
-          <div className="card" id="my-card-space">
+          <a
+            href="https://ajedelmann.github.io/piano-player/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
             <img
               className="card-img-top"
               src={PianoPlayer}
               height="200vh"
-              alt="Card image cap"
+              alt="Card cap"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Piano Player</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <p>
                   <span className="blackSpan">Description: </span>This piano
                   player can be played with computer keyboards, have fun
@@ -38,28 +44,29 @@ const Portfolio = () => {
                   <span className="blackSpan">Technologies used: </span>Pure
                   JavaScript, html and css
                 </p>
-              </p>
+              </div>
               <div className="visit-website">
-                <a
-                  href="https://ajedelmann.github.io/piano-player/index.html"
-                  rel="external"
-                  target="_blank"
-                >
-                  Visit website
-                </a>
+                <p>Visit website</p>
               </div>
             </div>
-          </div>
-          <div className="card" id="my-card-space">
+          </a>
+
+          <a
+            href="https://AJEdelmann.github.io/ravenous-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
             <img
               className="card-img-top"
               src={Ravenous}
               height="200vh"
-              alt="Card image cap"
+              alt="Card cap"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">React Ravenous</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <p>
                   <span className="blackSpan">Description: </span>A Yelp-like
                   clone fetching data from Yelp API
@@ -68,28 +75,29 @@ const Portfolio = () => {
                   <span className="blackSpan">Technologies used: </span>React,
                   Node.js and css
                 </p>
-              </p>
+              </div>
               <div className="visit-website">
-                <a
-                  href="https://AJEdelmann.github.io/ravenous-app"
-                  rel="external"
-                  target="_blank"
-                >
-                  Visit website
-                </a>
+                <p>Visit website</p>
               </div>
             </div>
-          </div>
-          <div className="card" id="my-card-space">
+          </a>
+
+          <a
+            href="https://AJEdelmann.github.io/react-jammming/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
             <img
               className="card-img-top"
               src={Jammming}
               height="200vh"
-              alt="Card image cap"
+              alt="Card cap"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Jammming</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <p>
                   <span className="blackSpan">Description: </span>A website that
                   fetches data from Spotify API to allow users to search the
@@ -100,33 +108,33 @@ const Portfolio = () => {
                   <span className="blackSpan">Technologies used: </span>React,
                   Node.js and css
                 </p>
-              </p>
+              </div>
               <div className="visit-website">
-                <a
-                  href="https://AJEdelmann.github.io/react-jammming/"
-                  rel="external"
-                  target="_blank"
-                >
-                  Visit website
-                </a>
+                <p>Visit website</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 
       <div className="row my-projects">
         <div className="card-deck my-cards">
-          <div className="card" id="my-card-space">
+          <a
+            href="https://ajedelmann.github.io/news-app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
             <img
               className="card-img-top"
               src={NewsApp}
               height="200vh"
-              alt="Card image cap"
+              alt="Card cap"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">News app</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <p>
                   <span className="blackSpan">Description: </span>A webpack
                   boilerplate fetching data from news api with axios
@@ -135,28 +143,29 @@ const Portfolio = () => {
                   <span className="blackSpan">Technologies used: </span>
                   JavaScript, Nodejs and Express
                 </p>
-              </p>
+              </div>
               <div className="visit-website">
-                <a
-                  href="https://ajedelmann.github.io/news-app/"
-                  rel="external"
-                  target="_blank"
-                >
-                  Visit website
-                </a>
+                <p>Visit website</p>
               </div>
             </div>
-          </div>
-          <div className="card" id="my-card-space">
+          </a>
+
+          <a
+            href="https://AJEdelmann.github.io/rhyme-generator/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
             <img
               className="card-img-top"
               src={RhymeGenerator}
               height="200vh"
-              alt="Card image cap"
+              alt="Card cap"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Rhyme generator</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <p>
                   <span className="blackSpan">Description: </span>In this
                   project I use the boilerplate code for an AJAX request using
@@ -167,28 +176,29 @@ const Portfolio = () => {
                   <span className="blackSpan">Technologies used: </span>
                   JavaScript, JQuery, Nodejs and Express
                 </p>
-              </p>
+              </div>
               <div className="visit-website">
-                <a
-                  href="https://AJEdelmann.github.io/rhyme-generator/"
-                  rel="external"
-                  target="_blank"
-                >
-                  Visit website
-                </a>
+                <p>Visit website</p>
               </div>
             </div>
-          </div>
-          <div className="card" id="my-card-space">
+          </a>
+
+          <a
+            href="https://github.com/AJEdelmann/music-chords-api/tree/dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
             <img
               className="card-img-top"
               src={Ear}
               height="200vh"
-              alt="Card image cap"
+              alt="Card cap"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Music-chords-API</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <p>
                   <span className="blackSpan">Description: </span>Traditional
                   RESTfull API that crawls entire music chords from websites and
@@ -198,18 +208,12 @@ const Portfolio = () => {
                   <span className="blackSpan">Technologies used: </span>Node,
                   Express, Puppeteer and Mongoose
                 </p>
-              </p>
+              </div>
               <div className="visit-website">
-                <a
-                  href="https://github.com/AJEdelmann/music-chords-api/tree/dev"
-                  rel="external"
-                  target="_blank"
-                >
-                  Github repository
-                </a>
+                <p>Github repository</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

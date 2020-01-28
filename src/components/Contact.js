@@ -4,25 +4,17 @@ const Contact = () => {
   return (
     <div className="section-contact">
       <div className="mycontact">
-        {/* <div className="linha"> */}
         <div className=" coluna col12 mygetintouch">
           <h1 id="myh1contact">Get in touch</h1>
-          <p className="myinterest">
+          <div className="myinterest">
             I’m always interested in new opportunities, freelance work, and
             collaborations.
-            <br />
+          </div>
+          <div className="myinterest">
             Message me if you'd like to work with me.
-          </p>
+          </div>
         </div>
-        {/* </div> */}
 
-        {/* <div className="linha"> */}
-        {/* <div className=" coluna col myicon"> */}
-        {/* <i
-              className="fas fa-address-card"
-              style={{ fontSize: "5em", paddingTop: "10px" }}
-            ></i> */}
-        {/* </div> */}
         <div className=" coluna col mylists">
           <ul className="mylists mydetails">
             <li>
@@ -40,7 +32,6 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        {/* </div> */}
       </div>
 
       <div className="mybrief">
@@ -51,7 +42,7 @@ const Contact = () => {
               method="post"
               action="https://formspree.io/albert.edelmann@gmail.com"
             >
-              <p className="mybrief">
+              <div className="mybrief">
                 Dear Albert,
                 <br />
                 My name is{" "}
@@ -97,7 +88,7 @@ const Contact = () => {
                   />
                 </div>
                 <br />
-              </p>
+              </div>
             </form>
           </div>
         </div>
