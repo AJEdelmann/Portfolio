@@ -13,6 +13,11 @@ a {
   color: black;
 }
 
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .visit-website>p {
   color: #346beb;
 }
