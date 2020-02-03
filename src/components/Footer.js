@@ -6,12 +6,7 @@ const Footer = () => {
     <div className="footerSection">
       <div className="footer">
         <footer>
-          <div className="coluna col4 mycv">
-            <span>
-              <a href="albert-edelmann-cv.pdf">Print a resume</a>
-            </span>
-          </div>
-          <div className="coluna col4 copy">
+          <div>
             <p>This website was developed by Albert Edelmann with React</p>
             <div className="socialMediaIcons">
               <a
@@ -44,11 +39,6 @@ const Footer = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="coluna col4 myprivacy">
-            <span className="myprivacy">
-              <a href="privacy.html">Privacy policy</a>
-            </span>
           </div>
         </footer>
       </div>

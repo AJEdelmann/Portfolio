@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="homeWrapper">
+    <div className="wrapper">
       <div className="myNav">
         <header className="header">
           <div className="navDiv">
@@ -13,7 +13,7 @@ const Home = () => {
                 <li className="nav-li">
                   <Link
                     activeClass="active"
-                    to="homeWrapper"
+                    to="wrapper"
                     spy={true}
                     smooth={true}
                     offset={-70}

@@ -1,3 +1,4 @@
+/* ======== GLOBAL STYLING ======== */
 * {
   box-sizing: border-box;
 }
@@ -18,82 +19,26 @@ a:hover {
   text-decoration: none;
 }
 
-.visit-website>p {
-  color: #346beb;
-}
-
-.coluna {
-  padding: 0 5px;
-  /*espassamento entre colunas, isso influi na conta dos 960px, que dividido por
-  12 da 80, menos 10 de cada lado da 60*/
-  float: left;
-}
-
-/* com esse espassamento definimos aqui abaixo o tamanho de cada coluna: */
-
-.col1 {
-  /*width: 60px;*/
-  width: 6.25%;
-}
-
-.col2 {
-  /*width: 140px;*/
-  width: 14.583333%;
-}
-
-.col3 {
-  /*width: 220px;*/
-  width: 22.916667%;
-}
-
 .col4 {
-  /*width: 300px;*/
   width: 31.25%;
 }
 
-.col5 {
-  /*width: 380px;*/
-  width: 39.583333%;
-}
-
-.col6 {
-  /*width: 460px;*/
-  width: 47.916667%;
-}
-
-.col7 {
-  /*width: 540px;*/
-  width: 56.25%;
-}
-
 .col8 {
-  /*width: 620px;*/
   width: 64.583333%;
 }
 
-.col9 {
-  /*width: 700px;*/
-  width: 72.916667%;
-}
-
-.col10 {
-  /*width: 780px;*/
-  width: 81.25%;
-}
-
 .col11 {
-  /*width: 860px;*/
   width: 89.583333%;
 }
 
 .col12 {
-  /*width: 940px;*/
   width: 97.916667%;
 }
 
-/* estilos reutilizaveis */
-
-.homeWrapper {
+/* ====================================================== */
+/* ============= here starts NAV section ============== */
+/* ====================================================== */
+.wrapper {
   height: 100vh;
   width: 100vw;
 }
@@ -125,7 +70,6 @@ nav {
 nav ul {
   list-style-type: none;
   margin-block-end: 1.32em;
-  /*padding: 0;*/
 }
 
 .nav-li:hover {
@@ -140,30 +84,18 @@ nav ul li {
   color: #10162f;
 }
 
-ul.inline li:last-child,
-ol.inline li:last-child {
+ul.inline li:last-child {
   margin-right: 0;
-  /* o ultimo li em linha tanto de ul quanto ol tem que ter margem sempre 0! */
 }
 
-hr {
-  padding: 0;
-  background-color: #10162f;
-  width: 100%;
-  height: auto;
-  float: right;
-  margin: 0;
-}
-
+/* ====================================================== */
+/* ============= here starts HOME section ============== */
+/* ====================================================== */
 .home {
   height: 100vh;
   display: flex;
   align-items: center;
 }
-
-/* .mytext {
-  padding-top: 12%;
-} */
 
 #myname {
   font-size: 3.5em;
@@ -208,11 +140,11 @@ span {
 
 img {
   max-width: 100%;
-  /* com isso ja ajeita as img dentro do site */
 }
 
-/*here starts the ABOUT page*/
-
+/* ====================================================== */
+/* ============= here starts ABOUT section ============== */
+/* ====================================================== */
 .myabout {
   background: #10162f;
   -webkit-background-size: cover;
@@ -231,7 +163,6 @@ img {
 .whatido,
 .howdid,
 .myMainStack {
-  /* background-color: #fcfafaed; */
   background: #141e3b;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +211,6 @@ img {
   width: 100px;
   height: 30px;
   border: 1px solid gray;
-  /* background: linear-gradient(to left, #e7babaed, #b92f16); */
   background: linear-gradient(to left, #3dbaf7, #1d3b8b);
   color: #fff;
   border-radius: 15px;
@@ -291,12 +221,6 @@ img {
   justify-content: center;
 }
 
-/*.transparent {
-  padding: 15px 0;
-}*/
-
-/*Typography*/
-
 .myh2 {
   font-size: 1.8em;
   color: #4fe0b0;
@@ -305,7 +229,6 @@ img {
 
 .myh3 {
   font-size: 1.5em;
-  /* color: rgb(252, 146, 158); */
   color: #4fe0b0;
   margin: 10px;
 }
@@ -322,28 +245,18 @@ img {
 /* ============================================= */
 /* ======== Here starts SKILLS section ========= */
 /* ============================================= */
-
 .mySkills {
   background: antiquewhite;
   height: 100vh;
 }
 
-/* .myknowledge {
-  overflow: hidden;
-} */
-
 .myh2skill {
   margin-bottom: 4rem;
-  margin-top: 3rem;
+  padding-top: 3rem;
   text-align: left;
   font-weight: bold;
   color: black;
   margin-left: 13vw;
-}
-
-.sk {
-  font-size: 3vmin;
-  font-weight: bold;
 }
 
 .skills-ul {
@@ -387,7 +300,6 @@ img {
 .graphic-bar-5 {
   position: relative;
   width: 100vw;
-  /* right: 21vw; */
   color: rgba(0, 26, 21, 0.6);
 }
 
@@ -416,8 +328,6 @@ img {
   height: 80%;
   display: flex;
   align-items: flex-end;
-  /* border-radius: 10px;
-  background-color: rgba(157, 177, 173, 0.4); */
 }
 
 #fill,
@@ -431,54 +341,52 @@ img {
   height: 20px;
   border-radius: 10px;
   background: linear-gradient(to left, #d46060, #1d3b8b);
-  /* background: linear-gradient(to left, #3DBAF7, #1D3B8B); */
   width: 100%;
   z-index: 2;
 }
 
 #fill {
-  width: 100%;
   height: 80%;
 }
 
 #fill1 {
-  width: 100%;
   height: 72%;
 }
 
 #fill2 {
-  width: 100%;
   height: 57%;
 }
 
 #fill3 {
-  width: 100%;
   height: 48%;
 }
 
 #fill4 {
-  width: 100%;
   height: 40%;
 }
 
 #fill5 {
-  width: 100%;
   height: 30%;
 }
 
 #fill6 {
-  width: 100%;
   height: 20%;
 }
 
 #fill7 {
-  width: 100%;
   height: 10%;
 }
 
 .procent {
   text-align: center;
   color: #fff;
+}
+
+hr {
+  background-color: #10162f;
+  width: 100%;
+  float: right;
+  margin: 0;
 }
 
 .graphic-level-1,
@@ -521,9 +429,9 @@ img {
   left: 7rem;
 }
 
-/* ============================================= */
-/* ======== Here starts Portfolio section ========= */
-/* ============================================= */
+/* ========================================================= */
+/* ============= here starts PROJECTS section ============== */
+/* ========================================================= */
 .my-projects {
   display: flex;
   align-items: center;
@@ -546,17 +454,18 @@ img {
   text-align: end;
 }
 
+.visit-website>p {
+  color: #346beb;
+}
+
 #my-card-space:hover {
   box-shadow: -5px 0 20px 5px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease-out;
 }
 
-/* ________________________________________________________________
-___________________________________________________________________
-              Here starts the contact page
-__________________________________________________________________
-_________________________________________________________________*/
-
+/* ======================================================== */
+/* ============= here starts CONTACT section ============== */
+/* ======================================================== */
 .mycontact {
   background-color: #c0c0c024;
   text-align: center;
@@ -621,12 +530,7 @@ _________________________________________________________________*/
   color: black;
   font-weight: 600;
   padding-top: 10px;
-  /* font-size: 1rem; */
 }
-
-/* .mylists>.mydetails>li {
-  font-size: 0.5rem;
-} */
 
 .clientEntry {
   color: rgb(11, 11, 99);
@@ -643,7 +547,6 @@ _________________________________________________________________*/
 
 input::placeholder {
   color: rgb(11, 11, 99);
-  /* opacity: 0.3; */
 }
 
 input:focus {
@@ -684,38 +587,9 @@ input:focus {
   background: linear-gradient(to left, #3dbaf7, #10162f);
 }
 
-/* HERE STARTS THE PRIVACY PAGE */
-
-#myprivacycontent {
-  color: black;
-  font-size: 1.3em;
-}
-
-.myprivacyh1 {
-  font-size: 2.8em;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-[class*="col"] {
-  float: left;
-}
-
-.linha::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Footer section */
-
-.footerSection {
-  /* height: 300px; */
-}
-
+/* ======================================================== */
+/* ============= here starts FOOTER section =============== */
+/* ======================================================== */
 .footer {
   font-size: 0.8em;
   background: #10162f;
@@ -730,19 +604,9 @@ footer {
   color: #fff;
   padding-top: 10px;
   height: 100%;
-}
-
-.mycopy {
-  margin: 10px 0 0 0;
-}
-
-.myprivacy,
-.mycv {
-  padding: 15px;
-}
-
-.copy {
-  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socialMediaIcons {
@@ -772,29 +636,9 @@ footer {
   border-radius: 5px;
 }
 
-a {
-  text-decoration: none;
-  margin-top: 10px;
-}
-
-nav ul li a {
-  color: #10162f;
-}
-
-nav ul li a:hover {
-  color: #5a3d08;
-}
-
-.myprivacy a,
-.mycv a {
-  color: #fff;
-}
-
-.myprivacy a:hover,
-.mycv a:hover {
-  color: yellow;
-}
-
+/* ======================================================== */
+/* =========== here starts RESPONSIVE DESIGN ============== */
+/* ======================================================== */
 @media (max-width: 830px) {
   .mytext {
     width: 50vw;
@@ -829,6 +673,10 @@ nav ul li a:hover {
     margin-right: -15px;
   }
 
+  .darth-vader {
+    left: -5rem;
+  }
+
   .myh2 {
     font-size: 1.5em;
   }
@@ -839,16 +687,6 @@ nav ul li a:hover {
 
   .myh4 {
     font-size: 1.1em;
-  }
-
-  .copy,
-  .myprivacy,
-  .mycv {
-    padding: 0;
-  }
-
-  .copy>p {
-    margin-bottom: 0;
   }
 
   .socialMediaIcons>a {
@@ -882,10 +720,6 @@ nav ul li a:hover {
     height: 100vh;
   }
 
-  /* .myh3 {
-    font-size: 1em;
-  } */
-
   .myh4 {
     font-size: 1.1em;
   }
@@ -904,22 +738,9 @@ nav ul li a:hover {
     height: 40vh;
   }
 
-  /* .myinterest,
-  .mylists {
-    font-size: 0.8rem;
-  } */
-
   .myliskill {
     right: -5px;
     transform: rotate(80deg);
-  }
-
-  .darth-vader {
-    display: none;
-  }
-
-  .footer {
-    font-size: 0.5em;
   }
 }
 

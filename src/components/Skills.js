@@ -3,7 +3,6 @@ import darthVader from "../img/darth-vader.png";
 const Skills = () => {
   return (
     <div className="mySkills">
-      {/* <div className="linha"> */}
       <div className="coluna col11 myknowledge">
         <h2 className="myh2skill">My Skills</h2>
         <ul className="skills-ul">
@@ -67,7 +66,6 @@ const Skills = () => {
           </div>
         </ul>
       </div>
-      {/* </div> */}
       <hr className="graphic-bar-1"></hr>
       <hr className="graphic-bar-2"></hr>
       <hr className="graphic-bar-3"></hr>
