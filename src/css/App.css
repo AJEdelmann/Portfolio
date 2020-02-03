@@ -214,11 +214,6 @@ img {
 /*here starts the ABOUT page*/
 
 .myabout {
-  /* background-image: url(../img/coffe.png); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  /* background: linear-gradient(to left, rgb(19, 19, 20), #fff); */
-  /* background: #282c34; */
   background: #10162f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,7 +221,7 @@ img {
   background-size: cover;
   color: #fff;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -245,7 +240,7 @@ img {
   color: #fff;
   padding: 29px 0;
   text-align: center;
-  margin: 30px 0;
+  margin: 20px 0;
   padding: 5px 3px;
 }
 
@@ -259,7 +254,7 @@ img {
 }
 
 .whatido {
-  height: 30vh;
+  height: 27vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +262,7 @@ img {
 }
 
 .howdid {
-  height: 45vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,7 +315,8 @@ img {
   letter-spacing: 0.1rem;
   font-weight: normal;
   margin: 10px;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 /* ============================================= */
@@ -813,9 +809,17 @@ nav ul li a:hover {
     margin-left: 0;
   }
 
+  .mycontact {
+    height: 37vh;
+  }
+
+  .mydetails {
+    flex-direction: column;
+  }
+
   .myinterest,
   .mylists {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .myliskill {
@@ -834,7 +838,7 @@ nav ul li a:hover {
   }
 
   .myh4 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .copy,
@@ -874,26 +878,36 @@ nav ul li a:hover {
     font-size: 1.3em;
   }
 
-  .myh3 {
-    font-size: 1em;
+  .myabout {
+    height: 100vh;
   }
 
+  /* .myh3 {
+    font-size: 1em;
+  } */
+
   .myh4 {
-    font-size: 0.8em;
+    font-size: 1.1em;
   }
 
   .whatido {
     margin: 10px 0;
+    height: 30vh;
   }
 
   .howdid {
-    height: 50vh;
+    height: 52vh;
+
   }
 
-  .myinterest,
+  .mycontact {
+    height: 40vh;
+  }
+
+  /* .myinterest,
   .mylists {
     font-size: 0.8rem;
-  }
+  } */
 
   .myliskill {
     right: -5px;
@@ -916,10 +930,22 @@ nav ul li a:hover {
 
   .mywebdev,
   .myberlin {
-    font-size: 0.7em;
+    font-size: 0.8em;
+  }
+
+  .myabout {
+    height: 115vh;
+  }
+
+  .whatido {
+    height: 40vh;
   }
 
   .howdid {
-    height: 62vh;
+    height: 66vh;
+  }
+
+  .mycontact {
+    height: 50vh;
   }
 }
