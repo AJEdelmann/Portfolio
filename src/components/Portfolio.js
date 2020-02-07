@@ -12,9 +12,7 @@ const Portfolio = () => {
       <div className="row my-projects">
         <div className="row w-100 text-left align-items-center">
           <div className="col">
-            <h2 className="myProjectsH2 text-black font-weight-bold mt-4">
-              Selected projects
-            </h2>
+            <h2 className="myProjectsH2 font-weight-bold">Selected projects</h2>
             <br />
           </div>
         </div>

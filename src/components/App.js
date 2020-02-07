@@ -6,16 +6,18 @@ import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Navigation from "./Navigation";
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      <AboutMe></AboutMe>
-      <Skills></Skills>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
-      <Footer></Footer>
+      <Navigation />
+      <Home />
+      <AboutMe />
+      <Skills />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

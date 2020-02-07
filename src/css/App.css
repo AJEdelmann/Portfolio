@@ -10,7 +10,6 @@ body {
 }
 
 body {
-  color: #fa0606;
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
   scroll-behavior: smooth;
@@ -44,26 +43,12 @@ a:hover {
 /* ====================================================== */
 /* ============= here starts NAV section ============== */
 /* ====================================================== */
-.wrapper {
-  height: 100vh;
-  width: 100vw;
-}
-
 .myNav {
   position: fixed;
   background: #fff;
   z-index: 1000;
   width: 100vw;
   box-shadow: 0.5px 4px #88888847;
-}
-
-.header {
-  width: 100%;
-  height: auto;
-}
-
-.navDiv {
-  background: white;
 }
 
 nav {
@@ -103,16 +88,20 @@ ul.inline li:last-child {
   align-items: center;
 }
 
-#myname {
+#myName {
   font-size: 3.5em;
   text-align: center;
 }
 
-span {
+.aert {
   color: black;
 }
 
-.edel {
+.lbj {
+  color: red;
+}
+
+.edelann {
   color: silver;
 }
 
@@ -120,22 +109,22 @@ span {
   color: yellow;
 }
 
-.mywebdev {
+.myWebDev,
+.myBerlin {
   font-size: 1.2em;
   text-align: center;
-  letter-spacing: 0.5em;
+  color: red;
 }
 
-.myberlin {
-  font-size: 1.2em;
-  text-align: center;
+.myWebDev {
+  letter-spacing: 0.5em;
 }
 
 .photoDiv {
   height: 100vh;
 }
 
-.myphoto {
+.myPhoto {
   float: left;
   width: 50%;
   padding-top: 0;
@@ -151,7 +140,7 @@ img {
 /* ====================================================== */
 /* ============= here starts ABOUT section ============== */
 /* ====================================================== */
-.myabout {
+.myAbout {
   background: #10162f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -166,9 +155,8 @@ img {
   justify-content: center;
 }
 
-.whatido,
-.howdid,
-.myMainStack {
+.whatIDo,
+.howDid {
   background: #141e3b;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,65 +169,36 @@ img {
   padding: 5px 3px;
 }
 
-.whatido,
-.howdid {
+.whatIDo,
+.howDid {
   line-height: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.myMainStack {
-  height: 170px;
-}
-
-.whatido {
+.whatIdo {
   height: 27vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.howdid {
+.howDid {
   height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.mainStack {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.tech-skill {
-  width: 100px;
-  height: 30px;
-  border: 1px solid gray;
-  background: linear-gradient(to left, #3dbaf7, #1d3b8b);
-  color: #fff;
-  border-radius: 15px;
-  margin: 8px 30px;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-}
-
-.myh2 {
+.myH2 {
   font-size: 1.8em;
   color: #4fe0b0;
   margin: 10px 0;
 }
 
-.myh3 {
+.myH3 {
   font-size: 1.5em;
   color: #4fe0b0;
   margin: 10px;
 }
 
-.myh4 {
+.myH4 {
   color: #66d9ef;
   letter-spacing: 0.1rem;
   font-weight: normal;
@@ -257,11 +216,10 @@ img {
 }
 
 .myh2skill {
-  margin-bottom: 4rem;
-  padding-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
   text-align: left;
   font-weight: bold;
-  color: black;
   margin-left: 13vw;
 }
 
@@ -273,7 +231,7 @@ img {
   padding-inline-start: 0;
 }
 
-.myliskill {
+.skill-li {
   width: 100%;
   height: 20px;
   border-radius: 10px;
@@ -340,10 +298,7 @@ img {
 #fill1,
 #fill2,
 #fill3,
-#fill4,
-#fill5,
-#fill6,
-#fill7 {
+#fill4 {
   height: 20px;
   border-radius: 10px;
   background: linear-gradient(to left, #d46060, #1d3b8b);
@@ -369,18 +324,6 @@ img {
 
 #fill4 {
   height: 40%;
-}
-
-#fill5 {
-  height: 30%;
-}
-
-#fill6 {
-  height: 20%;
-}
-
-#fill7 {
-  height: 10%;
 }
 
 .procent {
@@ -438,11 +381,14 @@ hr {
 /* ========================================================= */
 /* ============= here starts PROJECTS section ============== */
 /* ========================================================= */
+.section-projects {
+  background-image: linear-gradient(to right, #c7d7e6, #c7d7e633);
+}
+
 .my-projects {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right, #c7d7e6, #c7d7e633);
   min-height: 600px;
   color: black;
 }
@@ -472,7 +418,7 @@ hr {
 /* ======================================================== */
 /* ============= here starts CONTACT section ============== */
 /* ======================================================== */
-.mycontact {
+.myContact {
   background-color: #c0c0c024;
   text-align: center;
   padding: 10px 0;
@@ -480,19 +426,23 @@ hr {
   height: 33vh;
 }
 
-.mybrief,
-.myinterest {
+.myBrief,
+.myInterest {
   color: black;
   font-size: 1.3em;
   line-height: 50px;
 }
 
-.myinterest {
+.myInterest {
   line-height: 30px;
 }
 
-.mybrief {
+.myBrief {
   margin-left: 2vw;
+}
+
+#myH1Contact {
+  font-weight: 600;
 }
 
 .briefDiv {
@@ -502,26 +452,16 @@ hr {
   width: 100vw;
 }
 
-.myicon {
-  text-align: right;
-}
-
-.mydetails {
+.myDetails {
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 1.5rem;
 }
 
-#myh1contact {
-  color: black;
-  font-weight: 600;
-}
-
-.myh2contact {
+.myH2Contact {
   font-size: 2.4rem;
   text-align: center;
-  color: black;
   font-weight: 600;
   margin-top: 2rem;
 }
@@ -530,10 +470,9 @@ hr {
   color: rgb(11, 11, 99);
 }
 
-.mylists {
+.myLists {
   list-style: none;
   padding: 0;
-  color: black;
   font-weight: 600;
   padding-top: 10px;
 }
@@ -576,7 +515,7 @@ input:focus {
   text-align: left;
 }
 
-.botao {
+.submitButton {
   background: #10162f;
   color: #fff;
   border-radius: 3vw;
@@ -585,11 +524,11 @@ input:focus {
   font-weight: 600;
 }
 
-.botao:focus {
+.submitButton:focus {
   outline: none;
 }
 
-.botao:hover {
+.submitButton:hover {
   background: linear-gradient(to left, #3dbaf7, #10162f);
 }
 
@@ -621,13 +560,13 @@ footer {
   justify-content: space-around;
 }
 
-.myinsta,
+.myInsta,
 .myLinkedin,
 .myGithub {
   width: 2rem;
 }
 
-.myinsta {
+.myInsta {
   background: black;
   border-radius: 10px;
 }
@@ -645,8 +584,22 @@ footer {
 /* ======================================================== */
 /* =========== here starts RESPONSIVE DESIGN ============== */
 /* ======================================================== */
-@media (max-width: 830px) {
-  .mytext {
+@media (max-width: 981px) {
+  .myAbout {
+    height: 95vh;
+  }
+
+  .howDid {
+    height: 70vh;
+  }
+
+  .myH3 {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 873px) {
+  .myText {
     width: 50vw;
   }
 
@@ -654,25 +607,28 @@ footer {
     width: 50vw;
   }
 
-  .myphoto {
+  .myPhoto {
     width: 75%;
     margin-left: 0;
   }
 
-  .mycontact {
-    height: 37vh;
+  .howDid {
+    height: 50vh;
   }
 
-  .mydetails {
-    flex-direction: column;
+  .myH2 {
+    font-size: 1.5em;
   }
 
-  .myinterest,
-  .mylists {
-    font-size: 1.2rem;
+  .myH3 {
+    font-size: 1.2em;
   }
 
-  .myliskill {
+  .myH4 {
+    font-size: 1.1em;
+  }
+
+  .skill-li {
     right: -20px;
     font-size: 1.2em;
     transform: rotate(60deg);
@@ -683,16 +639,17 @@ footer {
     left: -5rem;
   }
 
-  .myh2 {
-    font-size: 1.5em;
+  .myContact {
+    height: 37vh;
   }
 
-  .myh3 {
-    font-size: 1.2em;
+  .myDetails {
+    flex-direction: column;
   }
 
-  .myh4 {
-    font-size: 1.1em;
+  .myInterest,
+  .myLists {
+    font-size: 1.2rem;
   }
 
   .socialMediaIcons>a {
@@ -705,74 +662,82 @@ footer {
     font-size: 0.9em;
   }
 
-  #myname {
+  #myName {
     font-size: 2.5em;
   }
 
-  .mywebdev,
-  .myberlin {
+  .myWebDev,
+  .myBerlin {
     font-size: 1em;
   }
 
-  .myphoto {
+  .myPhoto {
     width: 100%;
   }
 
-  .myh2 {
-    font-size: 1.3em;
-  }
-
-  .myabout {
+  .myAbout {
     height: 100vh;
   }
 
-  .myh4 {
-    font-size: 1.1em;
-  }
-
-  .whatido {
+  .whatIDo {
     margin: 10px 0;
     height: 30vh;
   }
 
-  .howdid {
+  .howDid {
     height: 52vh;
-
   }
 
-  .mycontact {
-    height: 40vh;
+  .myH2 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
   }
 
-  .myliskill {
+  .myH4 {
+    font-size: 1.1em;
+  }
+
+  .skill-li {
     right: -5px;
     transform: rotate(80deg);
   }
+
+  .myContact {
+    height: 40vh;
+  }
 }
 
-@media (max-width: 400px) {
-  #myname {
+@media (max-width: 408px) {
+  #myName {
     font-size: 2.2em;
   }
 
-  .mywebdev,
-  .myberlin {
+  .myWebDev,
+  .myBerlin {
     font-size: 0.8em;
   }
 
-  .myabout {
+  .myAbout {
     height: 115vh;
   }
 
-  .whatido {
+  .whatIDo {
     height: 40vh;
   }
 
-  .howdid {
+  .howDid {
     height: 66vh;
   }
 
-  .mycontact {
+  .myH2 {
+    margin-bottom: 0px;
+  }
+
+  .myH3 {
+    margin-bottom: 3px;
+  }
+
+  .myContact {
     height: 50vh;
   }
 }

@@ -2,21 +2,21 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="section-contact">
-      <div className="mycontact">
-        <div className=" coluna col12 mygetintouch">
-          <h1 id="myh1contact">Get in touch</h1>
-          <div className="myinterest">
+    <>
+      <div className="myContact">
+        <div className=" col12">
+          <h1 id="myH1Contact">Get in touch</h1>
+          <div className="myInterest">
             I’m always interested in new opportunities, freelance work, and
             collaborations.
           </div>
-          <div className="myinterest">
+          <div className="myInterest">
             Message me if you'd like to work with me.
           </div>
         </div>
 
-        <div className=" coluna col mylists">
-          <ul className="mylists mydetails">
+        <div className=" col myLists">
+          <ul className="myLists myDetails">
             <li>
               <span className="contactIcons">✆</span> Phone: +49 170 9812225
             </li>
@@ -34,15 +34,15 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="mybrief">
+      <div className="myBrief">
         <div className="briefDiv">
-          <div className=" coluna col12">
-            <h2 className="myh2contact">Send me a message</h2>
+          <div className="col12">
+            <h2 className="myH2Contact">Send me a message</h2>
             <form
               method="post"
               action="https://formspree.io/albert.edelmann@gmail.com"
             >
-              <div className="mybrief">
+              <div className="myBrief">
                 Dear Albert,
                 <br />
                 My name is{" "}
@@ -83,7 +83,7 @@ const Contact = () => {
                 <div className="buttonSendMessage">
                   <input
                     type="submit"
-                    className="botao"
+                    className="submitButton"
                     value="Submit &raquo;"
                   />
                 </div>
@@ -93,7 +93,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

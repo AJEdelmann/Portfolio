@@ -3,42 +3,42 @@ import darthVader from "../img/darth-vader.png";
 const Skills = () => {
   return (
     <div className="mySkills">
-      <div className="coluna col11 myknowledge">
+      <div className="col11">
         <h2 className="myh2skill">My Skills</h2>
         <ul className="skills-ul">
-          <li className="myliskill">html&css</li>
+          <li className="skill-li">html&css</li>
           <div id="bar">
             <div id="fill1"></div>
           </div>
-          <li className="myliskill">JavaScript</li>
+          <li className="skill-li">JavaScript</li>
           <div id="bar">
             <div id="fill1"></div>
           </div>
-          <li className="myliskill">React</li>
+          <li className="skill-li">React</li>
           <div id="bar">
             <div id="fill2"></div>
           </div>
-          <li className="myliskill">Node.js</li>
+          <li className="skill-li">Node.js</li>
           <div id="bar">
             <div id="fill2"></div>
           </div>
-          <li className="myliskill">Express</li>
+          <li className="skill-li">Express</li>
           <div id="bar">
             <div id="fill3"></div>
           </div>
-          <li className="myliskill">BBQ</li>
+          <li className="skill-li">BBQ</li>
           <div id="bar">
             <div id="fill"></div>
           </div>
-          <li className="myliskill">MongoDB</li>
+          <li className="skill-li">MongoDB</li>
           <div id="bar">
             <div id="fill3"></div>
           </div>
-          <li className="myliskill">SQL</li>
+          <li className="skill-li">SQL</li>
           <div id="bar">
             <div id="fill4"></div>
           </div>
-          <div className="graph-qualifications coluna">
+          <div className="graph-qualifications">
             <div className="graphic-level-1">
               <span className="blackSpan">Uh? </span>
               <span>Next question</span>

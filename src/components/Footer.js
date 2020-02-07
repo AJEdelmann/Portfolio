@@ -14,7 +14,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src={InstaIcon} alt="instagram" className="myinsta" />
+                <img src={InstaIcon} alt="instagram" className="myInsta" />
               </a>
               <a
                 href="https://github.com/AJEdelmann"
