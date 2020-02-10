@@ -102,11 +102,11 @@ ul.inline li:last-child {
 }
 
 .edelann {
-  color: silver;
+  color: rgb(138, 135, 135);
 }
 
 .lm {
-  color: yellow;
+  color: orange;
 }
 
 .myWebDev,
@@ -186,19 +186,19 @@ img {
   height: 40vh;
 }
 
-.myH2 {
+.myAboutH2 {
   font-size: 1.8em;
   color: #4fe0b0;
   margin: 10px 0;
 }
 
-.myH3 {
+.myAboutH3 {
   font-size: 1.5em;
   color: #4fe0b0;
   margin: 10px;
 }
 
-.myH4 {
+.myAboutH4 {
   color: #66d9ef;
   letter-spacing: 0.1rem;
   font-weight: normal;
@@ -287,18 +287,18 @@ img {
   top: -25rem;
 }
 
-#bar {
+.bar {
   width: 100%;
   height: 80%;
   display: flex;
   align-items: flex-end;
 }
 
-#fill,
-#fill1,
-#fill2,
-#fill3,
-#fill4 {
+.fill,
+.fill1,
+.fill2,
+.fill3,
+.fill4 {
   height: 20px;
   border-radius: 10px;
   background: linear-gradient(to left, #d46060, #1d3b8b);
@@ -306,23 +306,23 @@ img {
   z-index: 2;
 }
 
-#fill {
+.fill {
   height: 80%;
 }
 
-#fill1 {
+.fill1 {
   height: 72%;
 }
 
-#fill2 {
+.fill2 {
   height: 57%;
 }
 
-#fill3 {
+.fill3 {
   height: 48%;
 }
 
-#fill4 {
+.fill4 {
   height: 40%;
 }
 
@@ -593,7 +593,7 @@ footer {
     height: 70vh;
   }
 
-  .myH3 {
+  .myAboutH3 {
     margin-top: 0px;
   }
 }
@@ -616,15 +616,15 @@ footer {
     height: 50vh;
   }
 
-  .myH2 {
+  .myAboutH2 {
     font-size: 1.5em;
   }
 
-  .myH3 {
+  .myAboutH3 {
     font-size: 1.2em;
   }
 
-  .myH4 {
+  .myAboutH4 {
     font-size: 1.1em;
   }
 
@@ -688,12 +688,12 @@ footer {
     height: 52vh;
   }
 
-  .myH2 {
+  .myAboutH2 {
     font-size: 1.3em;
     margin-bottom: 5px;
   }
 
-  .myH4 {
+  .myAboutH4 {
     font-size: 1.1em;
   }
 
@@ -729,11 +729,11 @@ footer {
     height: 66vh;
   }
 
-  .myH2 {
+  .myAboutH2 {
     margin-bottom: 0px;
   }
 
-  .myH3 {
+  .myAboutH3 {
     margin-bottom: 3px;
   }
 

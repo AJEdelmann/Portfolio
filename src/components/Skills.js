@@ -7,36 +7,36 @@ const Skills = () => {
         <h2 className="myh2skill">My Skills</h2>
         <ul className="skills-ul">
           <li className="skill-li">html&css</li>
-          <div id="bar">
-            <div id="fill1"></div>
+          <div className="bar">
+            <div className="fill1"></div>
           </div>
           <li className="skill-li">JavaScript</li>
-          <div id="bar">
-            <div id="fill1"></div>
+          <div className="bar">
+            <div className="fill1"></div>
           </div>
           <li className="skill-li">React</li>
-          <div id="bar">
-            <div id="fill2"></div>
+          <div className="bar">
+            <div className="fill2"></div>
           </div>
           <li className="skill-li">Node.js</li>
-          <div id="bar">
-            <div id="fill2"></div>
+          <div className="bar">
+            <div className="fill2"></div>
           </div>
           <li className="skill-li">Express</li>
-          <div id="bar">
-            <div id="fill3"></div>
+          <div className="bar">
+            <div className="fill3"></div>
           </div>
           <li className="skill-li">BBQ</li>
-          <div id="bar">
-            <div id="fill"></div>
+          <div className="bar">
+            <div className="fill"></div>
           </div>
           <li className="skill-li">MongoDB</li>
-          <div id="bar">
-            <div id="fill3"></div>
+          <div className="bar">
+            <div className="fill3"></div>
           </div>
           <li className="skill-li">SQL</li>
-          <div id="bar">
-            <div id="fill4"></div>
+          <div className="bar">
+            <div className="fill4"></div>
           </div>
           <div className="graph-qualifications">
             <div className="graphic-level-1">
