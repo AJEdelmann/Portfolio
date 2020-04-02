@@ -4,7 +4,7 @@ import Ravenous from "../img/ravenous.jpeg";
 import Ear from "../img/ear.jpeg";
 import Jammming from "../img/jammming.jpeg";
 import NewsApp from "../img/news-app.JPG";
-import RhymeGenerator from "../img/rhyme-generator.JPG";
+import RomanCalculator from "../img/roman-calculator.jpg";
 
 const Portfolio = () => {
   return (
@@ -66,8 +66,9 @@ const Portfolio = () => {
               <h5 className="card-title font-weight-bold">React Ravenous</h5>
               <div className="card-text">
                 <p>
-                  <span className="blackSpan">Description: </span>A Yelp-like
-                  clone fetching data from Yelp API
+                  <span className="blackSpan">Description: </span>A platform
+                  that fetch APIs data and returns list of business according to
+                  search parameters
                 </p>
                 <p>
                   <span className="blackSpan">Technologies used: </span>React,
@@ -149,7 +150,7 @@ const Portfolio = () => {
           </a>
 
           <a
-            href="https://AJEdelmann.github.io/rhyme-generator/"
+            href="https://ajedelmann.github.io/roman-calculator/"
             target="_blank"
             rel="noopener noreferrer"
             className="card"
@@ -157,22 +158,20 @@ const Portfolio = () => {
           >
             <img
               className="card-img-top"
-              src={RhymeGenerator}
+              src={RomanCalculator}
               height="200vh"
               alt="Card cap"
             />
             <div className="card-body">
-              <h5 className="card-title font-weight-bold">Rhyme generator</h5>
+              <h5 className="card-title font-weight-bold">Roman calculator</h5>
               <div className="card-text">
                 <p>
-                  <span className="blackSpan">Description: </span>In this
-                  project I use the boilerplate code for an AJAX request using
-                  an XHR object to the Datamuse API to search for words that
-                  rhyme. For poets and musicians delight!
+                  <span className="blackSpan">Description: </span>A calculator
+                  that can add, subtract and multiply Roman numerals
                 </p>
                 <p>
-                  <span className="blackSpan">Technologies used: </span>
-                  JavaScript, JQuery, Nodejs and Express
+                  <span className="blackSpan">Technologies used: </span>React
+                  Hooks, JavaScript, CSS and Jest
                 </p>
               </div>
               <div className="visit-website">
