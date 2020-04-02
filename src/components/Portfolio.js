@@ -50,7 +50,7 @@ const Portfolio = () => {
           </a>
 
           <a
-            href="https://AJEdelmann.github.io/ravenous-app"
+            href="https://ajedelmann.github.io/roman-calculator/"
             target="_blank"
             rel="noopener noreferrer"
             className="card"
@@ -58,21 +58,20 @@ const Portfolio = () => {
           >
             <img
               className="card-img-top"
-              src={Ravenous}
+              src={RomanCalculator}
               height="200vh"
               alt="Card cap"
             />
             <div className="card-body">
-              <h5 className="card-title font-weight-bold">React Ravenous</h5>
+              <h5 className="card-title font-weight-bold">Roman calculator</h5>
               <div className="card-text">
                 <p>
-                  <span className="blackSpan">Description: </span>A platform
-                  that fetch APIs data and returns list of business according to
-                  search parameters
+                  <span className="blackSpan">Description: </span>A calculator
+                  that can add, subtract and multiply Roman numerals
                 </p>
                 <p>
-                  <span className="blackSpan">Technologies used: </span>React,
-                  Node.js and css
+                  <span className="blackSpan">Technologies used: </span>React
+                  Hooks, JavaScript, CSS and Jest
                 </p>
               </div>
               <div className="visit-website">
@@ -119,6 +118,38 @@ const Portfolio = () => {
       <div className="row my-projects">
         <div className="card-deck my-cards">
           <a
+            href="https://AJEdelmann.github.io/ravenous-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
+            <img
+              className="card-img-top"
+              src={Ravenous}
+              height="200vh"
+              alt="Card cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title font-weight-bold">React Ravenous</h5>
+              <div className="card-text">
+                <p>
+                  <span className="blackSpan">Description: </span>A platform
+                  that fetch APIs data and returns list of business according to
+                  search parameters
+                </p>
+                <p>
+                  <span className="blackSpan">Technologies used: </span>React,
+                  Node.js and css
+                </p>
+              </div>
+              <div className="visit-website">
+                <p>Visit website</p>
+              </div>
+            </div>
+          </a>
+
+          <a
             href="https://ajedelmann.github.io/news-app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -141,37 +172,6 @@ const Portfolio = () => {
                 <p>
                   <span className="blackSpan">Technologies used: </span>
                   JavaScript, Nodejs and Express
-                </p>
-              </div>
-              <div className="visit-website">
-                <p>Visit website</p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="https://ajedelmann.github.io/roman-calculator/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card"
-            id="my-card-space"
-          >
-            <img
-              className="card-img-top"
-              src={RomanCalculator}
-              height="200vh"
-              alt="Card cap"
-            />
-            <div className="card-body">
-              <h5 className="card-title font-weight-bold">Roman calculator</h5>
-              <div className="card-text">
-                <p>
-                  <span className="blackSpan">Description: </span>A calculator
-                  that can add, subtract and multiply Roman numerals
-                </p>
-                <p>
-                  <span className="blackSpan">Technologies used: </span>React
-                  Hooks, JavaScript, CSS and Jest
                 </p>
               </div>
               <div className="visit-website">
