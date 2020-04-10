@@ -2,7 +2,7 @@ import React from "react";
 import "../css/App.css";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
+import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <AboutMe />
       <Skills />
-      <Portfolio />
+      <Projects />
       <Contact />
       <Footer />
     </div>

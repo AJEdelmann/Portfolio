@@ -3,10 +3,10 @@ import PianoPlayer from "../img/piano-player.jpeg";
 import Ravenous from "../img/ravenous.jpeg";
 import Ear from "../img/ear.jpeg";
 import Jammming from "../img/jammming.jpeg";
-import NewsApp from "../img/news-app.JPG";
+import CVFY from "../img/cvfy.jpg";
 import RomanCalculator from "../img/roman-calculator.jpg";
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <div className="section-projects">
       <div className="row my-projects">
@@ -17,6 +17,72 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card-deck my-cards">
+          <a
+            href="https://github.com/cvfy/cvfy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
+            <img
+              className="card-img-top"
+              src={CVFY}
+              height="200vh"
+              alt="Card cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title font-weight-bold">CV|FY</h5>
+              <div className="card-text">
+                <p>
+                  <span className="blackSpan">Description: </span>a platform
+                  that provides CV and Cover Letter templates as well as a
+                  dynamic text editor with many features to import data,
+                  customize them and convert them to pdf.
+                </p>
+                <p>
+                  <span className="blackSpan">Technologies used: </span>React
+                  Hooks, Context API, Redux, SASS, CSS, Cloudinary, Node.js,
+                  Express.js, MongoDB, Mongoose, Puppeteer and Passport.js
+                </p>
+              </div>
+              <div className="visit-website">
+                <p>Github repository</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/AJEdelmann/music-chords-api/tree/dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
+            <img
+              className="card-img-top"
+              src={Ear}
+              height="200vh"
+              alt="Card cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title font-weight-bold">Music-chords-API</h5>
+              <div className="card-text">
+                <p>
+                  <span className="blackSpan">Description: </span>Traditional
+                  RESTfull API that crawls entire music chords from websites and
+                  store into database
+                </p>
+                <p>
+                  <span className="blackSpan">Technologies used: </span>Node,
+                  Express, Puppeteer and Mongoose
+                </p>
+              </div>
+              <div className="visit-website">
+                <p>Github repository</p>
+              </div>
+            </div>
+          </a>
+
           <a
             href="https://ajedelmann.github.io/piano-player/index.html"
             target="_blank"
@@ -48,7 +114,11 @@ const Portfolio = () => {
               </div>
             </div>
           </a>
+        </div>
+      </div>
 
+      <div className="row my-projects">
+        <div className="card-deck my-cards">
           <a
             href="https://ajedelmann.github.io/roman-calculator/"
             target="_blank"
@@ -72,6 +142,38 @@ const Portfolio = () => {
                 <p>
                   <span className="blackSpan">Technologies used: </span>React
                   Hooks, JavaScript, CSS and Jest
+                </p>
+              </div>
+              <div className="visit-website">
+                <p>Visit website</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://AJEdelmann.github.io/ravenous-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+            id="my-card-space"
+          >
+            <img
+              className="card-img-top"
+              src={Ravenous}
+              height="200vh"
+              alt="Card cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title font-weight-bold">React Ravenous</h5>
+              <div className="card-text">
+                <p>
+                  <span className="blackSpan">Description: </span>A platform
+                  that fetch APIs data and returns list of business according to
+                  search parameters
+                </p>
+                <p>
+                  <span className="blackSpan">Technologies used: </span>React,
+                  Node.js and css
                 </p>
               </div>
               <div className="visit-website">
@@ -114,107 +216,8 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-
-      <div className="row my-projects">
-        <div className="card-deck my-cards">
-          <a
-            href="https://AJEdelmann.github.io/ravenous-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card"
-            id="my-card-space"
-          >
-            <img
-              className="card-img-top"
-              src={Ravenous}
-              height="200vh"
-              alt="Card cap"
-            />
-            <div className="card-body">
-              <h5 className="card-title font-weight-bold">React Ravenous</h5>
-              <div className="card-text">
-                <p>
-                  <span className="blackSpan">Description: </span>A platform
-                  that fetch APIs data and returns list of business according to
-                  search parameters
-                </p>
-                <p>
-                  <span className="blackSpan">Technologies used: </span>React,
-                  Node.js and css
-                </p>
-              </div>
-              <div className="visit-website">
-                <p>Visit website</p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="https://ajedelmann.github.io/news-app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card"
-            id="my-card-space"
-          >
-            <img
-              className="card-img-top"
-              src={NewsApp}
-              height="200vh"
-              alt="Card cap"
-            />
-            <div className="card-body">
-              <h5 className="card-title font-weight-bold">News app</h5>
-              <div className="card-text">
-                <p>
-                  <span className="blackSpan">Description: </span>A webpack
-                  boilerplate fetching data from news api with axios
-                </p>
-                <p>
-                  <span className="blackSpan">Technologies used: </span>
-                  JavaScript, Nodejs and Express
-                </p>
-              </div>
-              <div className="visit-website">
-                <p>Visit website</p>
-              </div>
-            </div>
-          </a>
-
-          <a
-            href="https://github.com/AJEdelmann/music-chords-api/tree/dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card"
-            id="my-card-space"
-          >
-            <img
-              className="card-img-top"
-              src={Ear}
-              height="200vh"
-              alt="Card cap"
-            />
-            <div className="card-body">
-              <h5 className="card-title font-weight-bold">Music-chords-API</h5>
-              <div className="card-text">
-                <p>
-                  <span className="blackSpan">Description: </span>Traditional
-                  RESTfull API that crawls entire music chords from websites and
-                  store into database
-                </p>
-                <p>
-                  <span className="blackSpan">Technologies used: </span>Node,
-                  Express, Puppeteer and Mongoose
-                </p>
-              </div>
-              <div className="visit-website">
-                <p>Github repository</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
     </div>
   );
 };
 
-export default Portfolio;
+export default Projects;

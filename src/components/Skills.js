@@ -16,13 +16,17 @@ const Skills = () => {
           </div>
           <li className="skill-li">React</li>
           <div className="bar">
-            <div className="fill2"></div>
+            <div className="fill1"></div>
           </div>
           <li className="skill-li">Node.js</li>
           <div className="bar">
             <div className="fill2"></div>
           </div>
           <li className="skill-li">Express</li>
+          <div className="bar">
+            <div className="fill2"></div>
+          </div>
+          <li className="skill-li">PHP</li>
           <div className="bar">
             <div className="fill3"></div>
           </div>
