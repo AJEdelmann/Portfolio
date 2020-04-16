@@ -18,7 +18,7 @@ const Contact = () => {
         <div className=" col myLists">
           <ul className="myLists myDetails">
             <li>
-              <span className="contactIcons">✆</span> Phone: +49 170 9812225
+              <span className="contactIcons">✆</span> Phone: +49 174 2087356
             </li>
             <li>
               <span className="contactIcons">✉</span> E-mail:
