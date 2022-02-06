@@ -10,7 +10,7 @@ const Skills = () => {
           <div className="bar">
             <div className="fill1"></div>
           </div>
-          <li className="skill-li">Scss<span>&</span>Sass</li>
+          <li className="skill-li">SCSS<span>&</span>Sass</li>
           <div className="bar">
             <div className="fill1"></div>
           </div>
