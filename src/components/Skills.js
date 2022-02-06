@@ -6,7 +6,11 @@ const Skills = () => {
       <div className="col11">
         <h2 className="myh2skill">My Skills</h2>
         <ul className="skills-ul">
-          <li className="skill-li">html&css</li>
+          <li className="skill-li">Html<span>&</span>Css</li>
+          <div className="bar">
+            <div className="fill1"></div>
+          </div>
+          <li className="skill-li">Scss<span>&</span>Sass</li>
           <div className="bar">
             <div className="fill1"></div>
           </div>
@@ -14,15 +18,11 @@ const Skills = () => {
           <div className="bar">
             <div className="fill1"></div>
           </div>
-          <li className="skill-li">React</li>
+          <li className="skill-li">Vue.js</li>
           <div className="bar">
             <div className="fill1"></div>
           </div>
-          <li className="skill-li">Node.js</li>
-          <div className="bar">
-            <div className="fill2"></div>
-          </div>
-          <li className="skill-li">Express</li>
+          <li className="skill-li">React</li>
           <div className="bar">
             <div className="fill2"></div>
           </div>
@@ -30,17 +30,21 @@ const Skills = () => {
           <div className="bar">
             <div className="fill3"></div>
           </div>
+          <li className="skill-li">Wordpress</li>
+          <div className="bar">
+            <div className="fill1"></div>
+          </div>
           <li className="skill-li">BBQ</li>
           <div className="bar">
             <div className="fill"></div>
           </div>
-          <li className="skill-li">MongoDB</li>
-          <div className="bar">
-            <div className="fill3"></div>
-          </div>
-          <li className="skill-li">SQL</li>
+          <li className="skill-li">Node.js<span>&</span>Express</li>
           <div className="bar">
             <div className="fill4"></div>
+          </div>
+          <li className="skill-li">MongoDB</li>
+          <div className="bar">
+            <div className="fill5"></div>
           </div>
           <div className="graph-qualifications">
             <div className="graphic-level-1">

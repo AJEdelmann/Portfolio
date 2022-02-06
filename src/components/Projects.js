@@ -27,8 +27,9 @@ const Projects = () => {
             <img
               className="card-img-top"
               src={CVFY}
-              height="200vh"
+              height="250px"
               alt="Card cap"
+              loading="lazy"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">CV|FY</h5>
@@ -61,8 +62,9 @@ const Projects = () => {
             <img
               className="card-img-top"
               src={Ear}
-              height="200vh"
+              height="250px"
               alt="Card cap"
+              loading="lazy"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Music-chords-API</h5>
@@ -93,8 +95,9 @@ const Projects = () => {
             <img
               className="card-img-top"
               src={PianoPlayer}
-              height="200vh"
+              height="250px"
               alt="Card cap"
+              loading="lazy"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Piano Player</h5>
@@ -129,8 +132,9 @@ const Projects = () => {
             <img
               className="card-img-top"
               src={RomanCalculator}
-              height="200vh"
+              height="250px"
               alt="Card cap"
+              loading="lazy"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Roman calculator</h5>
@@ -160,8 +164,9 @@ const Projects = () => {
             <img
               className="card-img-top"
               src={Ravenous}
-              height="200vh"
+              height="250px"
               alt="Card cap"
+              loading="lazy"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">React Ravenous</h5>
@@ -192,8 +197,9 @@ const Projects = () => {
             <img
               className="card-img-top"
               src={Jammming}
-              height="200vh"
+              height="250px"
               alt="Card cap"
+              loading="lazy"
             />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">Jammming</h5>

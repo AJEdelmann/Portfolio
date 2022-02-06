@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div className="myContact">
-        <div className=" col12">
+        <div className="contactWrap">
           <h1 id="myH1Contact">Get in touch</h1>
           <div className="myInterest">
             I’m always interested in new opportunities, freelance work, and
@@ -36,7 +36,7 @@ const Contact = () => {
 
       <div className="myBrief">
         <div className="briefDiv">
-          <div className="col12">
+          <div className="contactWrap">
             <h2 className="myH2Contact">Send me a message</h2>
             <form
               method="post"
