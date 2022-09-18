@@ -38,7 +38,7 @@ const Skills = () => {
           <div className="bar">
             <div className="fill4"></div>
           </div>
-          <li className="skill-li">MongoDB</li>
+          <li className="skill-li">Rest&nbsp;API's</li>
           <div className="bar">
             <div className="fill5"></div>
           </div>
