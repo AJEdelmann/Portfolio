@@ -57,6 +57,18 @@ const Navigation = () => {
           <li className="nav-li">
             <Link
               activeClass="active"
+              to="myCode"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              CODE
+            </Link>
+          </li>
+          <li className="nav-li">
+            <Link
+              activeClass="active"
               to="myContact"
               spy={true}
               smooth={true}

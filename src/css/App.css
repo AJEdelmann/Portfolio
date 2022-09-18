@@ -321,11 +321,11 @@ img {
 }
 
 .fill2 {
-  height: 72%;
+  height: 70%;
 }
 
 .fill3 {
-  height: 57%;
+  height: 59%;
 }
 
 .fill4 {
@@ -439,11 +439,51 @@ hr {
   padding: 10px 0;
   width: 100vw;
   height: 33vh;
+  border-top: 4px solid #fff;
 }
 
 .contactWrap {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+.myCode {
+  padding: 30px 0 40px;
+  background-color: #c0c0c024;
+}
+
+.myCode .code-repositories-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  justify-items: center;
+  margin: 40px 0;
+}
+
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-left-ear:hover, 
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-right-ear:hover, 
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-nose:hover {
+  fill: #f1a699;
+  transition: all 0.1s;
+}
+
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-left-ear, 
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-right-ear, 
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-nose {
+  fill: #e24329;
+  transition: all 0.8s;
+}
+
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-left-eye:hover, 
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-right-eye:hover {
+  fill: #fec2a4;
+  transition: all 0.1s;
+}
+
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-left-cheek:hover, 
+.myCode a.gitlab-footer-bg .tanuki-logo .tanuki-right-cheek:hover {
+  fill: #fed8a4;
+  transition: all 0.1s;
 }
 
 .myBrief,
@@ -457,7 +497,7 @@ hr {
   line-height: 30px;
 }
 
-#myH1Contact {
+#myH1Contact, #myH1Code {
   padding-top: 2rem;
   font-size: 2.4rem;
   text-align: center;
@@ -581,25 +621,52 @@ footer {
   justify-content: space-around;
 }
 
-.myInsta,
-.myLinkedin,
-.myGithub {
-  width: 2rem;
-}
-
-.myInsta {
-  background: black;
-  border-radius: 10px;
-}
-
-.myGithub {
+.socialMediaIcons a {
   background: #fff;
+}
+
+.socialMediaIcons a.gitlab-footer-bg {
+  background: transparent;
+}
+
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-left-ear:hover, 
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-right-ear:hover, 
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-nose:hover {
+  fill: #f1a699;
+  transition: all 0.1s;
+}
+
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-left-ear, 
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-right-ear, 
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-nose {
+  fill: #e24329;
+  transition: all 0.8s;
+}
+
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-left-eye:hover, 
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-right-eye:hover {
+  fill: #fec2a4;
+  transition: all 0.1s;
+}
+
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-left-cheek:hover, 
+.socialMediaIcons a.gitlab-footer-bg .tanuki-logo .tanuki-right-cheek:hover {
+  fill: #fed8a4;
+  transition: all 0.1s;
+}
+
+.socialMediaIcons a.insta-footer-bg {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border-radius: 8px;
+}
+
+.linkedin-footer-bg {
+  border-radius: 3px;
+}
+
+.github-footer-bg {
   border-radius: 50%;
-}
-
-.myLinkedin {
-  background: #fff;
-  border-radius: 5px;
 }
 
 /* ======================================================== */
@@ -675,6 +742,17 @@ footer {
 
   .socialMediaIcons>a {
     margin-top: 0;
+  }
+}
+
+@media(max-width: 768px) {
+  .myCode .code-repositories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .myCode .code-repositories-grid a svg {
+    width: 200px;
+    height: 200px;
   }
 }
 

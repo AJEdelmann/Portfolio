@@ -6,11 +6,7 @@ const Skills = () => {
       <div className="col11">
         <h2 className="myh2skill">My Skills</h2>
         <ul className="skills-ul">
-          <li className="skill-li">Html<span>&</span>Css</li>
-          <div className="bar">
-            <div className="fill1"></div>
-          </div>
-          <li className="skill-li">SCSS<span>&</span>Sass</li>
+          <li className="skill-li">Html<span>&</span>CSS&nbsp;/&nbsp;SCSS</li>
           <div className="bar">
             <div className="fill1"></div>
           </div>
@@ -18,7 +14,7 @@ const Skills = () => {
           <div className="bar">
             <div className="fill1"></div>
           </div>
-          <li className="skill-li">Vue.js</li>
+          <li className="skill-li">Vue.js&nbsp;(Vue2&nbsp;&&nbsp;Vue3)</li>
           <div className="bar">
             <div className="fill1"></div>
           </div>
