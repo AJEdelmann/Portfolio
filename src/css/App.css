@@ -84,7 +84,8 @@ ul.inline li:last-child {
 /* ====================================================== */
 .home {
   height: 100vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
 }
 
@@ -125,8 +126,6 @@ ul.inline li:last-child {
 }
 
 .myPhoto {
-  float: left;
-  width: 50%;
   padding-top: 0;
   max-width: 100%;
   height: -webkit-fill-available;
@@ -687,18 +686,13 @@ footer {
 }
 
 @media (max-width: 873px) {
-  .myText {
-    width: 50vw;
-  }
-
-  .photoDiv {
-    width: 50vw;
+  .home {
+    grid-template-columns: 1fr 1.5fr;
   }
 
   .myPhoto {
-    width: 75%;
     margin-left: 0;
-  }
+  } 
 
   .howDid {
     height: 50vh;
@@ -761,6 +755,12 @@ footer {
     font-size: 0.9em;
   }
 
+  .home {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: end;
+  }
+
   #myName {
     font-size: 2.5em;
   }
@@ -770,8 +770,12 @@ footer {
     font-size: 1em;
   }
 
+  .photoDiv {
+    height: 50vh;
+  }
+
   .myPhoto {
-    width: 100%;
+    width: auto;
   }
 
   .myAbout {
