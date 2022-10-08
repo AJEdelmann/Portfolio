@@ -759,6 +759,7 @@ footer {
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: end;
+    grid-template-rows: 1.5fr 1fr;
   }
 
   #myName {
