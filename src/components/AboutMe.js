@@ -17,13 +17,13 @@ const AboutMe = () => {
       <div className="col11 howDid">
         <h2 className="myAboutH2">How did I get here?</h2>
         <h3 className="myAboutH3">Blood, sweat, tears and lot’s of coffee!</h3>
-        <span className="myAboutH4">
+        <div className="myAboutH4">
           After working for Engineering companies selling planning, management
           and execution for eleven years, <br />I decided to turn my hobby into
           my profession and started to invest time and energy in order to become
-          a Full Stack Web Developer. <br />Since three years I've been working as a Frontend Engineer at <a href="https://wordliner.com/team/" target="_blank">Wordliner GmbH</a>, building Softwares and Websites for Real State industry.<br>I enjoy bridging the gap between the
+          a Full Stack Web Developer. <br />Since three years I've been working as a Frontend Engineer at <a href="https://wordliner.com/team/" target="_blank">Wordliner GmbH</a>, building Softwares and Websites for Real State industry.<br />I enjoy bridging the gap between the
           offline and the online worlds, so keep doing just that.
-        </span>
+        </div>
       </div>
     </div>
   );
