@@ -198,7 +198,7 @@ img {
   margin: 10px;
 }
 
-.myAboutH4 {
+.myAboutH4, .myAboutH4 a {
   color: #66d9ef;
   letter-spacing: 0.1rem;
   font-weight: normal;
@@ -206,6 +206,12 @@ img {
   font-size: 1.3em;
   line-height: 1.5em;
 }
+
+.myAboutH4 a {
+  font-weight: 600;
+}
+
+
 
 /* ============================================= */
 /* ======== Here starts SKILLS section ========= */
