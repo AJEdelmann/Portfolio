@@ -15,7 +15,7 @@ const Home = () => {
             EDE<span className="lm">LM</span>ANN
           </span>
         </h1>
-        <h2 className="myWebDev">Software Engineer</h2>
+        <h2 className="myWebDev">Frontend Engineer</h2>
         <h3 className="myBerlin">based in Berlin, Germany</h3>
       </div>
       <div className="photoDiv">
