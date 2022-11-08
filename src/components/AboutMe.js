@@ -20,8 +20,7 @@ const AboutMe = () => {
         <div className="myAboutH4">
           After working for Engineering companies selling planning, management
           and execution for eleven years, <br />I decided to turn my hobby into
-          my profession and started to invest time and energy in order to become
-          a Full Stack Web Developer. <br />Since three years I've been working as a Frontend Engineer at <a href="https://wordliner.com/team/" target="_blank">Wordliner GmbH</a>, building Softwares and Websites for Real State industry.<br />I enjoy bridging the gap between the
+          my profession and since three years I've been working fulltime as a Frontend Engineer<br />building Softwares and Websites for Real State industry.<br />I enjoy bridging the gap between the
           offline and the online worlds, so keep doing just that.
         </div>
       </div>
